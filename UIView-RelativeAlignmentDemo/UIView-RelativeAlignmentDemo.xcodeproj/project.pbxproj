@@ -22,7 +22,7 @@
 		290C35B01864E28A009B40D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290C358F1864E28A009B40D9 /* UIKit.framework */; };
 		290C35B81864E28A009B40D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 290C35B61864E28A009B40D9 /* InfoPlist.strings */; };
 		290C35BA1864E28A009B40D9 /* UIView_RelativeAlignmentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C35B91864E28A009B40D9 /* UIView_RelativeAlignmentDemoTests.m */; };
-		290C35C61864E303009B40D9 /* UIView+RelativeAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C35C51864E303009B40D9 /* UIView+RelativeAlignment.m */; };
+		290C35CA1864E66C009B40D9 /* UIView+RelativeAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C35C91864E66C009B40D9 /* UIView+RelativeAlignment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		290C35B51864E28A009B40D9 /* UIView-RelativeAlignmentDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIView-RelativeAlignmentDemoTests-Info.plist"; sourceTree = "<group>"; };
 		290C35B71864E28A009B40D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		290C35B91864E28A009B40D9 /* UIView_RelativeAlignmentDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_RelativeAlignmentDemoTests.m; sourceTree = "<group>"; };
-		290C35C41864E303009B40D9 /* UIView+RelativeAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RelativeAlignment.h"; sourceTree = "<group>"; };
-		290C35C51864E303009B40D9 /* UIView+RelativeAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RelativeAlignment.m"; sourceTree = "<group>"; };
+		290C35C81864E66C009B40D9 /* UIView+RelativeAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RelativeAlignment.h"; sourceTree = "<group>"; };
+		290C35C91864E66C009B40D9 /* UIView+RelativeAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RelativeAlignment.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		290C357F1864E28A009B40D9 = {
 			isa = PBXGroup;
 			children = (
-				290C35C31864E303009B40D9 /* UIView+RelativeAlignment */,
+				290C35C71864E66C009B40D9 /* UIView+RelativeAlignment */,
 				290C35911864E28A009B40D9 /* UIView-RelativeAlignmentDemo */,
 				290C35B31864E28A009B40D9 /* UIView-RelativeAlignmentDemoTests */,
 				290C358A1864E28A009B40D9 /* Frameworks */,
@@ -159,11 +159,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		290C35C31864E303009B40D9 /* UIView+RelativeAlignment */ = {
+		290C35C71864E66C009B40D9 /* UIView+RelativeAlignment */ = {
 			isa = PBXGroup;
 			children = (
-				290C35C41864E303009B40D9 /* UIView+RelativeAlignment.h */,
-				290C35C51864E303009B40D9 /* UIView+RelativeAlignment.m */,
+				290C35C81864E66C009B40D9 /* UIView+RelativeAlignment.h */,
+				290C35C91864E66C009B40D9 /* UIView+RelativeAlignment.m */,
 			);
 			path = "UIView+RelativeAlignment";
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290C35C61864E303009B40D9 /* UIView+RelativeAlignment.m in Sources */,
+				290C35CA1864E66C009B40D9 /* UIView+RelativeAlignment.m in Sources */,
 				290C35A51864E28A009B40D9 /* ViewController.m in Sources */,
 				290C359C1864E28A009B40D9 /* AppDelegate.m in Sources */,
 				290C35981864E28A009B40D9 /* main.m in Sources */,
