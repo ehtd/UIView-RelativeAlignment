@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'UIView+RelativeAlignment'
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = 'Libraries for UI alignment'
   s.homepage     = 'https://github.com/ehtd/UIView-RelativeAlignment'
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source_files = 'UIView+RelativeAlignment/*.{h,m}'
   s.source       = { 
     :git => "https://github.com/ehtd/UIView-RelativeAlignment.git", 
-    :tag => "0.1.0"
+    :tag => "0.1.2"
   }
   s.requires_arc = false
 end
